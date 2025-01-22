@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Perhitungan Antrian</title>
+</head>
+<body>
+    <h1>Hasil Perhitungan Antrian</h1>
+    <table border="1">
+        <tr>
+            <th>Laju Kedatangan (λ)</th>
+            <th>Laju Pelayanan (μ)</th>
+            <th>Pemanfaatan Pelayan (ρ)</th>
+            <th>Waktu Rata-Rata dalam Sistem (W)</th>
+            <th>Waktu Rata-Rata dalam Antrian (Wq)</th>
+        </tr>
+        <tr>
+            <td>{{ hasil.laju_kedatangan }}</td>
+            <td>{{ hasil.laju_pelayanan }}</td>
+            <td>{{ hasil.pemanfaatan }}</td>
+            <td>{{ hasil.W }}</td>
+            <td>{{ hasil.Wq }}</td>
+        </tr>
+    </table>
+    <br>
+    <a href="/">Kembali ke Halaman Input</a>
+</body>
+</html>
